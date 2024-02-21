@@ -27,7 +27,8 @@
 }
 img,
 video,
-svg {
+svg,
+picture {
   display: block;
   height: auto;
   max-width: 100%;
@@ -115,6 +116,10 @@ p {
   align-items: center;
   justify-content: center;
   padding: 6rem 0rem;
+}
+.second__content{
+  flex-direction: column;
+  align-items: center;
 }
 .second__title {
   font-size: 1.7rem;
